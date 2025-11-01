@@ -11,10 +11,10 @@ export const InteractiveHero = () => {
       <div className="font-playfair-display text-4xl  italic">Hey,</div>
       <div className="grid grid-cols-25 grid-rows-10 h-50 my-6 rounded-md">
         {arr.map((item, idx) => (
-          <div key={idx} className="flex -inset-4">
-            <div className=" cursor-default font-bold text-2xl text-neutral-400 transition-all duration-0 hover:delay-0 [transition-delay:0.5s] hover:text-black  hover:scale-120 ease-in-out">
+          
+            <div key={idx} className=" cursor-default font-bold text-2xl text-neutral-400 transition-all duration-0 hover:delay-0 [transition-delay:0.5s] hover:text-black  hover:scale-125 ease-in-out">
               {item}
-            </div>
+         
           </div>
         ))}
       </div>
